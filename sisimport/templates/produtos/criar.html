@@ -1,0 +1,24 @@
+{% extends "paginas/base.html" %}
+{% block titulo %} Cadastrar novo Produto {% endblock %}
+   
+{% block conteudo %} 
+
+<div class="card">
+    <div class="card-header">
+        Cadastrar um produto
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Dados do produto</h4>
+        {% include 'produtos/form.html' %}
+
+
+
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+
+
+{% endblock %}

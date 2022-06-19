@@ -1,0 +1,19 @@
+{% extends "paginas/base.html" %}
+{% block titulo %} Início {% endblock %}
+   
+{% block conteudo %} 
+
+<div class="p-5 bg-light">
+    <div class="container">
+        <h1 class="display-3">Cadastro de Produtos</h1>
+        <p class="lead">Utilize esta tela para parametrizar dados dos produtos que serão importados.</p>
+        <hr class="my-2">
+        
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'produtos' %}" role="button">Começar</a>
+        </p>
+    </div>
+</div>
+
+
+{% endblock %}
